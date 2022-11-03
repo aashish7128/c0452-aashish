@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "Program",
+            "projectName": "c0452-aashish_8791d7a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Song",
+            "request": "launch",
+            "mainClass": "Song",
+            "projectName": "c0452-aashish_8791d7a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "c0452-aashish_8791d7a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Week04",
+            "request": "launch",
+            "mainClass": "Week4.Week04",
+            "projectName": "c0452-aashish_8791d7a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Week03",
+            "request": "launch",
+            "mainClass": "Week3.Week03",
+            "projectName": "c0452-aashish_8791d7a9"
+        }
+    ],
+    "compounds": []
+}
