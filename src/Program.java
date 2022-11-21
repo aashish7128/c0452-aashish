@@ -1,8 +1,12 @@
 import java.util.ArrayList;
 
+import helpers.InputReader;
+
 public class Program {
     public static void main(String[] args)
     {
+        System.out.println("Welcome to MusiK");
+        System.out.println("There are 12 songs added in the app, currently.");
         ArrayList<Song> songlist = new ArrayList<>();
 
         Song song1 = new Song(" One time ", " Justin biebier ", 287000);
@@ -31,18 +35,26 @@ public class Program {
         songlist.add(song11);
         songlist.add(song12);
 
-        for(Song obj : songlist)
-        {
-            obj.print();
-        }
+     songlist.remove(song7);
+     System.out.println("song removed successfully");
+     System.out.println("List of songs after removing");
 
-        //one.remove("kabira");
-        //one.print ();
-        //one.remove("Watch Me");
-        //one.print();
-        
-        //one.clear();
-        //one.print();
+     for(Song song:songlist)
+     {song.print();}
+     
+     {int Plays;
+        Plays = InputReader.getint();
+        System.out.println("Enter plays");
+        For (Song song:songlist)
+     {
+        if (Plays < get.Plays())
+        {
+            song.print();
+        }
+     }
+     
+
+          
 
     }
 }

@@ -121,4 +121,8 @@ public class InputReader
         return number;
     }
 
+    public static int getint() {
+        return 0;
+    }
+
 }

@@ -15,9 +15,10 @@ public class Song
         System.out.print ("Song:" + this.songName);
         System.out.print ("Artist:" + this.artistName);
         System.out.println("Plays: " + this.plays);
-        
 
-        }
+         }
+
+    public int getPlays() {return this.plays;}  
     }
     
 
