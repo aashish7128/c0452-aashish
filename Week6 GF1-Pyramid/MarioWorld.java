@@ -74,12 +74,28 @@ public class MarioWorld extends World
      * There is a gap of 2 blocks in the centre
      */
     public void buildPyramid()
-    {
-        int pyramidSize = getPyramidSize();
+{
+    int size = getPyramidSize ();
         
-        int x = 4; int y = 17;
-        Block Block = new Block();
-        addObject(Block, x, y);
+    int yStart = 17;
+    int yEnd = yStart - size;
+    int xStart = 4;
+    int xEnd = xStart + size;
+        
+        for(int y = yStart; y >= yEnd; y--)
+        {
+            for(int x = xStart; x <= xEnd; x++)
+            {
+              Block Block = new Block();
+              addObject(Block, x, y);
+        }
+        xStart++;
     }
-    
+  }
 }
+
+
+    
+
+
+

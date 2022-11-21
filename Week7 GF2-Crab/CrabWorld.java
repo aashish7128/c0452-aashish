@@ -47,15 +47,24 @@ public class CrabWorld extends World
      */
     public void addWorms()
     {
-
+       createWorm();
+    }
+    
+    public void addLobster()
+    {
+     lobster = new Lobster();
+        addObject(lobster, 600, 400);   
     }
     
     /**
      * This method creates & adds a single worm to a random position in
      * the world that is not too near the edge of the screen
      */
-    private void createWorm(int number)
+    private void createWorm()
     {
+        Worm worm = new Worm();
+        int x = generator.nextInt(getWidth));
+        int y = generator.nextInt(
     }
     
     public void score()
